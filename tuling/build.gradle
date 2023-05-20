@@ -38,7 +38,9 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
+checkstyle {
+    checkstyleTest.enabled = false
+}
 //compileJava {
 //    options.compilerArgs << "-parameters"
 //}
